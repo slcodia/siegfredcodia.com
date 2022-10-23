@@ -141,5 +141,13 @@
 						$menu._hide();
 
 			});
+	
+	// Scrolly.
+		$('.scrolly')
+			.scrolly({
+				offset: 100
+			});
+
+
 
 })(jQuery);
